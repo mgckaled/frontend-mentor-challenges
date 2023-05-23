@@ -4,6 +4,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 > Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+
+
 ## Overview
 
 ### Screenshot
@@ -13,7 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL [HERE](https://github.com/mgckaled/frontend-mentor-challenges/tree/main/qr-code-component)
-- Live Site URL [HERE](https://mgckaled.github.io/frontend-mentor-challenge/qr-code-component/template/)
+- Live Site URL [HERE](https://mgckaled.github.io/frontend-mentor-challenges/qr-code-component/template/)
 
 ## My process
 
