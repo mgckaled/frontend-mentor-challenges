@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# design files
+*.fig
+**/*.fig
+**/**/*.fig
+
+*.sketch
+**/*.sketch
+**/**/*.sketch
+
+
+*.xd
+**/*.xd
+**/**/*.xd
+
+# other
+.DS_Store
+.prettierignore
