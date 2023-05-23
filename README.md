@@ -2,9 +2,11 @@
 <!-- markdownlint-disable MD041 -->
 
 <div align="center">
-  <img alt="NLW Copa" src=".github/assets/frontend-mentor-logo.svg" width="30%"/>
+  <a href="https://www.frontendmentor.io/" target="_blank" rel="noopener noreferrer" ><img width="30%" src="./.github/assets/frontend-mentor-logo.png" /></a>
 </div>
+
 <br>
+
 <div align="center">
   <a href="https://github.com/mgckaled">
     <img alt="Made by mgckaled" src="https://img.shields.io/badge/made%20by-mgckaled-yellow">
@@ -61,8 +63,7 @@ To know or consult the challenges, access <https://www.frontendmentor.io/challen
         <tr>
           <td><code>01</code></td>
           <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/qr-code-component" target="_blank" rel="noopener noreferrer"><code>qr code component</code></a></td>
-          <td align="center">
-          <a href="01"><img width="200px" src="./qr-code-component/template/assets/design/desktop-design.jpg" target="_blank"rel="noopener noreferrer"/></a></td>
+          <td align="center"><img width="200px" src="./qr-code-component/template/assets/design/desktop-design.jpg"/></td>
           <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/qr-code-component/template/" target="_blank" ><img width="40px" src="./qr-code-component/template/assets/favicon/favicon-64x64.svg" /></a></td>
         </tr>
     </tbody>
