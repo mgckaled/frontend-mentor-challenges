@@ -42,7 +42,7 @@ To know or consult the challenges, access <https://www.frontendmentor.io/challen
           </p>
         </th>
         <th align="center">
-          <img width="201" height="1">
+          <img width="475" height="1">
           <p align="center">
             <small>
               <code>preview</code>
@@ -50,7 +50,7 @@ To know or consult the challenges, access <https://www.frontendmentor.io/challen
           </p>
         </th>
         <th align="center">
-            <img width="50" height="1">
+            <img width="75" height="1">
             <p align="center">
                 <small>
                 <code>deploy</code>
@@ -63,14 +63,14 @@ To know or consult the challenges, access <https://www.frontendmentor.io/challen
         <tr>
           <td><code>01</code></td>
           <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/qr-code-component" target="_blank" rel="noopener noreferrer"><code>qr code component</code></a></td>
-          <td align="center"><img width="200px" src="./qr-code-component/design/desktop-design.jpg"/></td>
-          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/qr-code-component/template/" target="_blank" ><img width="40px" src="./qr-code-component/template/assets/favicon/favicon-64x64.svg" /></a></td>
+          <td align="center"><img width="475px" src="./qr-code-component/design/desktop-design.jpg"/></td>
+          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/qr-code-component/template/" target="_blank" ><img width="64px" src="./qr-code-component/template/assets/favicon/favicon-64x64.svg" /></a></td>
         </tr>
         <tr>
           <td><code>02</code></td>
           <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/easybank" target="_blank" rel="noopener noreferrer"><code>easybank</code></a></td>
-          <td align="center"><img width="200px" src="./easybank/design/desktop-preview.jpg"/></td>
-          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/easybank/template/" target="_blank" ><img width="40px" src="./easybank/template/assets/favicon/favicon.svg" /></a></td>
+          <td align="center"><img width="475px" src="./easybank/design/desktop-preview.jpg"/></td>
+          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/easybank/template/" target="_blank" ><img width="64px" src="./easybank/template/assets/favicon/favicon.svg" /></a></td>
         </tr>
     </tbody>
   </table>
