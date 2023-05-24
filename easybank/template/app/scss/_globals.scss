@@ -23,6 +23,12 @@ body {
   }
 }
 
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
 a,
 a:visited,
 a:hover {
@@ -31,8 +37,7 @@ a:hover {
 
 // Spacing
 .container {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding: 2.25rem 1.5rem;
 }
 
 // Flexbox
@@ -59,9 +64,15 @@ button,
   border-radius: 50px;
   border: 0;
   background: linear-gradient(to right, $lime-green, $bright-cyan);
+  cursor: pointer;
   color: $white;
   font-weight: 400;
-  cursor: pointer;
+  font-size: $font-sm;
+  transition: opacity 300ms ease-in;
+
+  &:hover {
+    opacity: 0.75;
+  }
 }
 
 // Visibility
