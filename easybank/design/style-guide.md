@@ -1,5 +1,7 @@
 # Front-end Style Guide
 
+<https://www.youtube.com/playlist?list=PLUWqFDiirlsuYscECzks6zIZWr_Cfcx9k>
+
 ## Layout
 
 The designs were created to the following widths:

@@ -36,25 +36,19 @@ To know or consult the challenges, access <https://www.frontendmentor.io/challen
         <th align="center">
           <img width="250" height="1">
           <p>
-            <small>
-              <code>challenge</code>
-            </small>
+            <code>challenge</code>
           </p>
         </th>
         <th align="center">
           <img width="475" height="1">
           <p align="center">
-            <small>
               <code>preview</code>
-            </small>
           </p>
         </th>
         <th align="center">
             <img width="75" height="1">
             <p align="center">
-                <small>
                 <code>deploy</code>
-                </small>
             </p>
         </th>
       </tr>
