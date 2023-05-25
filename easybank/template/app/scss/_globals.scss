@@ -7,6 +7,10 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  scroll-behavior: smooth;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -18,6 +22,7 @@ body {
   color: $grayish-blue;
   line-height: 1.3;
   overflow-x: hidden;
+  cursor: default;
 
   @include breakpoint-up(large) {
     font-size: $font-med;
