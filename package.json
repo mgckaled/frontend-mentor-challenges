@@ -9,6 +9,12 @@
     "stylelint": "stylelint **/*.css **/**/*scss",
     "stylelint:fix": "stylelint **/*.css **/**/*scss --fix"
   },
+  "workspaces": [
+    "easybank",
+    "newsletter-signup",
+    "qr-code-component",
+    "results-summary-component"
+  ],
   "keywords": [],
   "author": "Marcel Kaled mgckaled@gmail.com",
   "license": "MIT",
@@ -19,4 +25,3 @@
     "stylelint-config-standard-scss": "^9.0.0"
   }
 }
-

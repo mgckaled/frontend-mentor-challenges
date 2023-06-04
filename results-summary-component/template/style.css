@@ -1,0 +1,254 @@
+/* ==== GLOBAL STYLES ==== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  /* primary colors */
+  --clr-light-red: hsl(0deg 100% 67%);
+  --clr-orange-yellow: hsl(39deg 100% 56%);
+  --clr-green-teal: hsl(166deg 100% 37%);
+  --clr-cobalt-blue: hsl(234deg 85% 45%);
+
+  /* gradients colors */
+  --clr-light-slate-blue: hsl(252deg 100% 67%);
+  --clr-light-royal-blue: hsl(241deg 81% 54%);
+  --clr-violet-blue: hsl(256deg 72% 46% / 100%);
+  --clr-persian-blue: hsl(241deg 72% 46% / 0%);
+
+  /* neutral colors */
+  --clr-white: hsl(0deg 0% 100%);
+  --clr-pale-blue: hsl(221deg 100% 96%);
+  --clr-light-lavender: hsl(241deg 100% 89%);
+  --clr-dark-gray-blue: hsl(224deg 30% 27%);
+}
+
+.flex {
+  display: flex;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+html {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--clr-white);
+}
+
+main {
+  flex-flow: column;
+  background-color: var(--clr-white);
+  cursor: default;
+}
+
+i {
+  font-size: 2rem;
+}
+
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  color: var(--clr-white);
+  font-weight: 800;
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: var(--clr-pale-blue);
+}
+
+h3 {
+  font-size: 2rem;
+  color: var(--clr-light-lavender);
+}
+
+h4,
+h5 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--clr-light-lavender);
+}
+
+p {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+button {
+  width: 100%;
+  height: 5rem;
+  margin-top: 1.5rem;
+  border: 0;
+  border-radius: 3.5rem;
+  background: var(--clr-dark-gray-blue);
+  color: var(--clr-white);
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 250ms ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to top, var(--clr-light-royal-blue), var(--clr-light-slate-blue));
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+/* ==== RESULT CONTNAINER STYLES ==== */
+
+.result-cont {
+  flex-flow: column;
+  justify-content: center;
+  height: 33rem;
+  padding: 1.5rem 5rem;
+  border-bottom-left-radius: 3.5rem;
+  border-bottom-right-radius: 3.5rem;
+  background: linear-gradient(to top, var(--clr-light-royal-blue), var(--clr-light-slate-blue));
+}
+
+.result-cont > h2 {
+  margin-bottom: 1rem;
+}
+
+.result-cont .canva {
+  flex-flow: column;
+  justify-content: center;
+  width: 14rem;
+  height: 14rem;
+  margin: 1.5rem auto;
+  text-align: center;
+  border-radius: 100%;
+  background-image: linear-gradient(var(--clr-violet-blue), var(--clr-persian-blue));
+}
+
+/* ==== SUMMARY CONTNAINER STYLES ==== */
+
+.summary-cont {
+  flex-flow: column;
+  gap: 1.5rem;
+  padding: 3rem 3.5rem 2.5rem;
+}
+
+.summary-cont > p {
+  font-weight: 800;
+}
+
+.summary-cont .ability-cont {
+  justify-content: space-between;
+  width: 100%;
+  height: 5.5rem;
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+}
+
+.summary-cont .ability-cont:nth-of-type(1) {
+  background-color: hsl(0deg 100% 67% / 5%);
+  color: var(--clr-light-red);
+  margin-top: 0.5rem;
+}
+
+.summary-cont .ability-cont:nth-of-type(2) {
+  background-color: hsl(39deg 100% 56% / 5%);
+  color: var(--clr-orange-yellow);
+}
+
+.summary-cont .ability-cont:nth-of-type(3) {
+  background-color: hsl(166deg 100% 37% / 5%);
+  color: var(--clr-green-teal);
+}
+
+.summary-cont .ability-cont:nth-of-type(4) {
+  background-color: hsl(234deg 85% 45% / 5%);
+  color: var(--clr-cobalt-blue);
+}
+
+.summary-cont .ability-cont p:first-of-type {
+  margin-left: 1rem;
+  margin-right: auto;
+}
+
+.summary-cont .ability-cont p:last-of-type {
+  color: var(--clr-light-lavender);
+}
+
+.summary-cont .ability-cont > p > span {
+  color: var(--clr-dark-gray-blue);
+}
+
+/* ==== FOOTER STYLES ==== */
+
+footer {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+footer a {
+  color: hsl(228deg 45% 44%);
+}
+
+/* ==== RESPONSIVE STYLES ==== */
+
+@media (width > 640px) {
+  body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-pale-blue);
+  }
+
+  main {
+    flex-flow: row;
+    justify-content: center;
+    width: 64rem;
+    height: 45rem;
+    border-radius: 3.5rem;
+    box-shadow: 0.5rem 1rem 3rem var(--clr-light-lavender);
+  }
+
+  h1 {
+    font-size: 6.5rem;
+  }
+
+  .result-cont {
+    width: 32rem;
+    height: 100%;
+    border-radius: 3.5rem;
+  }
+
+  .result-cont .canva {
+    width: 17rem;
+    height: 17rem;
+    margin: 2.5rem auto;
+  }
+
+  .summary-cont {
+    width: 32rem;
+  }
+
+  .summary-cont > p {
+    font-size: 2rem;
+  }
+}

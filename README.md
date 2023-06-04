@@ -58,13 +58,25 @@ To know or consult the challenges, access <https://www.frontendmentor.io/challen
           <td><code>01</code></td>
           <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/qr-code-component" target="_blank" rel="noopener noreferrer"><code>qr code component</code></a></td>
           <td align="center"><img width="475px" src="./qr-code-component/design/desktop-design.jpg"/></td>
-          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/qr-code-component/template/" target="_blank" ><img width="64px" src="./qr-code-component/template/assets/favicon/favicon-64x64.svg" /></a></td>
+          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/qr-code-component/template/" target="_blank" rel="noopener noreferrer" ><img width="64px" src="./qr-code-component/template/assets/favicon/favicon-64x64.svg" /></a></td>
         </tr>
         <tr>
           <td><code>02</code></td>
           <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/easybank" target="_blank" rel="noopener noreferrer"><code>easybank</code></a></td>
           <td align="center"><img width="475px" src="./easybank/design/desktop-preview.jpg"/></td>
-          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/easybank/template/" target="_blank" ><img width="64px" src="./easybank/template/assets/favicon/favicon.svg" /></a></td>
+          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/easybank/template/" target="_blank" rel="noopener noreferrer" ><img width="64px" src="./easybank/template/assets/favicon/favicon.svg" /></a></td>
+        </tr>
+        <tr>
+          <td><code>03</code></td>
+          <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/newsletter-signup" target="_blank" rel="noopener noreferrer"><code>newsletter-signup</code></a></td>
+          <td align="center"><img width="475px" src="./newsletter-signup/design/desktop-preview.jpg"/></td>
+          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/newsletter-signup/template/" target="_blank" rel="noopener noreferrer" ><img width="64px" src="./newsletter-signup/template/assets/favicon/fav-icon.svg" /></a></td>
+        </tr>
+        <tr>
+          <td><code>04</code></td>
+          <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/results-summary-component" target="_blank" rel="noopener noreferrer"><code>results-summary-component</code></a></td>
+          <td align="center"><img width="475px" src="./results-summary-component/design/desktop-preview.jpg"/></td>
+          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/results-summary-component/template/" target="_blank" rel="noopener noreferrer" ><img width="64px" src="./results-summary-component/template/assets/favicon/favicon.svg" /></a></td>
         </tr>
     </tbody>
   </table>
