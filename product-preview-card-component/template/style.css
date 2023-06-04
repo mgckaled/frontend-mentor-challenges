@@ -1,0 +1,165 @@
+/* ==== GLOBAL STYLES ==== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --clr-primary-400: hsl(158deg 36% 37%);
+  --clr-primary-500: hsl(158deg 36% 20%);
+  --clr-secondary-200: hsl(30deg 38% 92%);
+  --clr-neutral-900: hsl(212deg 21% 14%);
+  --clr-neutral-400: hsl(228deg 12% 48%);
+  --clr-neutral-100: hsl(0deg 0% 100%);
+  --ff-accent: 'Fraunces', serif;
+  --ff-base: 'Montserrat', sans-serif;
+  --fw-regular: 500;
+  --fw-bold: 700;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+i {
+  font-size: 16px;
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+h1 {
+  line-height: 1;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--clr-neutral-400);
+  background-color: var(--clr-secondary-200);
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+}
+
+.flex-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.visually-hidden:not(:focus, :active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.button {
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.75em 1.5em;
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+  font-weight: var(--fw-bold);
+  font-size: 0.925rem;
+  transition: opacity 250ms ease-in-out;
+}
+
+.button:is(:hover, :focus) {
+  background-color: var(--clr-primary-500);
+}
+
+.button:active {
+  opacity: 0.8;
+}
+
+/* ==== CONTAINER STYLES ==== */
+
+.product {
+  --content-padding: 1.5rem;
+  --content-spacing: 1rem;
+
+  display: grid;
+  background-color: var(--clr-neutral-100);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+/* ==== FOOTER STYLES ==== */
+
+footer {
+  font-size: 0.625rem;
+  text-align: center;
+  margin-top: 0.925rem;
+}
+
+footer a {
+  color: hsl(228deg 45% 44%);
+}
+
+/* ==== RESPONSIVE STYLES ==== */
+
+@media (width > 600px) {
+  .product {
+    --content-padding: 2rem;
+
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.product-content {
+  display: grid;
+  gap: var(--content-spacing);
+  padding: var(--content-padding);
+}
+
+.product-category {
+  font-size: 0.8125rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  color: var(--clr-neutral-900);
+}
+
+.product-price {
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  color: var(--clr-primary-400);
+}

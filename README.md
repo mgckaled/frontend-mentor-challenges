@@ -68,15 +68,21 @@ To know or consult the challenges, access <https://www.frontendmentor.io/challen
         </tr>
         <tr>
           <td><code>03</code></td>
-          <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/newsletter-signup" target="_blank" rel="noopener noreferrer"><code>newsletter-signup</code></a></td>
-          <td align="center"><img width="475px" src="./newsletter-signup/design/desktop-preview.jpg"/></td>
-          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/newsletter-signup/template/" target="_blank" rel="noopener noreferrer" ><img width="64px" src="./newsletter-signup/template/assets/favicon/fav-icon.svg" /></a></td>
-        </tr>
-        <tr>
-          <td><code>04</code></td>
           <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/results-summary-component" target="_blank" rel="noopener noreferrer"><code>results-summary-component</code></a></td>
           <td align="center"><img width="475px" src="./results-summary-component/design/desktop-preview.jpg"/></td>
           <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/results-summary-component/template/" target="_blank" rel="noopener noreferrer" ><img width="64px" src="./results-summary-component/template/assets/favicon/favicon.svg" /></a></td>
+        </tr>
+        <tr>
+          <td><code>04</code></td>
+          <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/product-preview-card-component" target="_blank" rel="noopener noreferrer"><code>product-preview-card-component</code></a></td>
+          <td align="center"><img width="475px" src="./product-preview-card-component/design/desktop-preview.jpg"/></td>
+          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/product-preview-card-component/template/" target="_blank" rel="noopener noreferrer" ><img width="64px" src="./product-preview-card-component/template/assets/favicon/fav-icon.svg" /></a></td>
+        </tr>
+        <tr>
+          <td><code>05</code></td>
+          <td><a href="https://github.com/mgckaled/frontend-mentor-challenges/tree/main/newsletter-signup" target="_blank" rel="noopener noreferrer"><code>newsletter-signup</code></a></td>
+          <td align="center"><img width="475px" src="./newsletter-signup/design/desktop-preview.jpg"/></td>
+          <td align="center"><a href="https://mgckaled.github.io/frontend-mentor-challenges/newsletter-signup/template/" target="_blank" rel="noopener noreferrer" ><img width="64px" src="./newsletter-signup/template/assets/favicon/fav-icon.svg" /></a></td>
         </tr>
     </tbody>
   </table>

@@ -11,9 +11,10 @@
   },
   "workspaces": [
     "easybank",
-    "newsletter-signup",
     "qr-code-component",
-    "results-summary-component"
+    "results-summary-component",
+    "product-preview-card-component",
+    "newsletter-signup"
   ],
   "keywords": [],
   "author": "Marcel Kaled mgckaled@gmail.com",
