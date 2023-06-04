@@ -18,9 +18,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<video width="80%" controls>
-  <source src="./.github/assets/screenshot.mp4" type="video/mp4">
-</video>
+<div align="center">
+  <video width="80%" controls>
+    <source src="./.github/assets/screenshot.mp4" type="video/mp4">
+  </video>
+</div>
 
 ### Links
 
