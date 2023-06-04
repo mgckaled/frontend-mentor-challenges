@@ -18,9 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<video width="80%" controls>
-  <source src="./.github/assets/screenshot.mov" type="video/mp4">
-</video>
+https://github.com/mgckaled/frontend-mentor-challenges/assets/58960702/95b3ecb8-2e2a-4fec-9173-fb8d22934810
 
 ### Links
 
